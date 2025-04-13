@@ -108,6 +108,14 @@ export default function Home() {
               githubUrl="https://github.com/verrmo12/RCMOVIES-RC"
               liveUrl="https://rcmovies.online"
             />
+            <ProjectCard
+              title="SnapitINC"
+              description="A modern landing page website for Snapit app with responsive design."
+              image="/snapit.png"
+              tags={["React", "Next.js", "API Integration", "Tailwind CSS"]}
+              githubUrl="https://github.com/verrmo12/Snapit-Landing-page"
+              liveUrl="https://snapit-project.vercel.app"
+            />            
 
 
 
