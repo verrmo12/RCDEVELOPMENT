@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Mail, Send, Loader2 } from "lucide-react"
+import { Send, Loader2 } from "lucide-react"
 
 export function ContactForm() {
   const [formData, setFormData] = useState({
@@ -40,7 +40,8 @@ export function ContactForm() {
         message: "Message sent successfully! I'll get back to you soon.",
       })
       setFormData({ name: "", email: "", subject: "", message: "" })
-    } catch (error) {
+    } catch (err) {
+      console.error("Error sending message:", err)
       setStatus({
         type: "error",
         message: "Failed to send message. Please try again later.",

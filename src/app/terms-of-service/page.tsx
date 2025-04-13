@@ -5,7 +5,7 @@ import Link from "next/link"
 import { ArrowLeft, FileText, Scale, AlertTriangle, Ban, Gavel, Globe, Pencil, Clock, Mail } from "lucide-react"
 import { Navbar } from "@/components/navbar"
 
-export default function TermsPage() {
+export default function TermsOfService() {
   return (
     <div className="min-h-screen bg-black text-white">
       <Navbar />

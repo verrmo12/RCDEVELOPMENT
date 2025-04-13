@@ -26,7 +26,6 @@ import {
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { ProjectCard } from "@/components/project-card"
-import { ContactForm } from "@/components/contact-form"
 import { TechMarquee } from "@/components/tech-marquee"
 import { Navbar } from "@/components/navbar"
 
